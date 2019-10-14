@@ -1,0 +1,97 @@
+{
+  "id": "58321429-a5b2-42d3-88bd-1d35df788343",
+  "version": "2.0",
+  "name": "Elements",
+  "url": "https://www.meteoblue.com",
+  "tests": [{
+    "id": "43baba00-f96b-40ea-9715-a22df614dcd4",
+    "name": "Meteoblue",
+    "commands": [{
+      "id": "3d3ca37b-ca33-4b4b-beb9-495bffaf5aed",
+      "comment": "",
+      "command": "open",
+      "target": "/ro/vreme/prognoza/s%C4%83pt%C4%83m%C3%A2na/cluj-napoca_rom%C3%A2nia_681290",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3948156e-8e5b-4740-a720-3bcb189e0fa0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1365x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "210e8d52-05a5-462a-a647-40e3cc4c93f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#day2 .tab_day_long",
+      "targets": [
+        ["css=#day2 .tab_day_long", "css:finder"],
+        ["xpath=//div[@id='day2']/a/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/a/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7007d29d-0c0e-416f-b0a5-4e0b987caa77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkbox_outer",
+      "targets": [
+        ["css=.checkbox_outer", "css:finder"],
+        ["xpath=//div[@id='wrapper-main']/div[2]/main/div[2]/div/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45f7783d-b886-4735-b99b-e096bf042108",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a9e1458-7a70-4198-adaf-67d5f6ff6d90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.zoomout > span",
+      "targets": [
+        ["css=.zoomout > span", "css:finder"],
+        ["xpath=//div[@id='satellite']/div/div/div/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48103af5-b010-4f04-94da-6700f9ba737a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.zoomout > span",
+      "targets": [
+        ["css=.zoomout > span", "css:finder"],
+        ["xpath=//div[@id='satellite']/div/div/div/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "937087ec-6e67-48ee-80f0-61ec312c8227",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fullscreen",
+      "targets": [
+        ["css=.fullscreen", "css:finder"],
+        ["xpath=//div[@id='satellite']/div/div/div/div/div[2]/table/table/tbody/tr/td[5]/span[4]", "xpath:idRelative"],
+        ["xpath=//td[5]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "be646e06-6058-4807-8413-01506e66cd22",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["43baba00-f96b-40ea-9715-a22df614dcd4"]
+  }],
+  "urls": ["https://www.meteoblue.com/"],
+  "plugins": []
+}

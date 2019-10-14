@@ -1,0 +1,14 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string name = "Levi";
+		
+		Console.Write("You'd never guess who I'm thinking of: ");
+		while (Console.ReadLine() != name)
+			Console.Write("Nope, haha! :)) You can try endlessly: ");
+		Console.Write("OMG, you've guessed it, I can't believe it!");
+	}
+}
