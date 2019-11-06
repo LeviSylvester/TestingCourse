@@ -1,0 +1,44 @@
+Documentatie (Test Case) pentru proiectul final
+
+Descriere
+Proiectul final consta in 2 automatizari, respectiv in AutoIT si SeleniumC# unite intr-o prezentare de 5 minute si urmareste simularea unui scenariu real in cadrul job-ului de tester. Harta: (AutoIT: Trello - Testrail( - Mantis) - {SeleniumC#): - Tests - eMail}
+
+Preconditii (Requirements)
+- Conexiune la internet minim testat este de 28.30 Mbps Download, 0.78 Mbps Upload, ping 30 ms
+- folder-ul cu numele meu copiat in directorul radacina C:
+- Visual Studio instalat, de la pornire sa ajunga in mai putin de 30 sec la afisarea testelor NUnit
+
+Folder-ul SzilveszterLevente contine:
+Folder-ul Ecosia cu toate fisierele aferente proiectului pt Visual Studio
+_ReadME_.txt continutul caruia se regaseste si in codul AutoIT
+===Run===FinalProject.lnk 
+C0TestCaseFinalProject.txt
+C1TestCaseEcosiaChrome.jpg pentru testele rulate in Visual Studio
+C2TestCaseEcosiaFirefox.jpg
+C3TestCaseEcosiaEdge.jpg
+FinalProject.au3 codul in AutoIT
+FinalProject.exe creat din .au3
+FixedBugReportEcosia.jpg
+TestCases'ExpectedResult.jpg rezultatul asteptat pentru testele automatizate cu Se C#
+
+Pasii pe care urmeaza automatizarea
+0. Poiectul se ruleaza accesand shortcut-ul ===RUN===FinalPoject sau FinalPoject.exe
+1. Programul incepe in AutoIT si primul pas pe care-l face testerul nostru robot este accesarea board-ului de activitati (Trello) in cadrul companiei.
+Se logheaza, acceseaza board-ul, apoi sticker-ele sau cardurile cu elementele de parcurs.
+2. In primul card avem testarea de regresie a site-ului de cautare Ecosia dupa o eroare corectata (ceea ce inseamna rularea suitei de teste cu testarea functiilor de baza pentru a confirma ca NU s-au produs efecte secundare dupa ce s-a facut modificarea necesara in program).
+Deschide un printscreen cu site-ul Ecosia (care isi redirectioneaza 80% din profituri pentru plantarea de copaci).
+3. Tot de aici acceseaza suita cu 3 cazuri de teste prin Testrail (un site pentru crearea si evidenta testelor).
+In acest scop trebuie sa se logheze.
+Deschide raportul dupa care a fost corectata eroarea. O eroare de block (cand programatorii au scos si au reactivat un buton, pagina nu se mai incarca).
+Vizualizeaza chiar test case-ul cu Firefox unde s-a produs eroarea. Se afiseaza pasii de parcurs. Mareste rezultatul asteptat sa fie mai vizibil.
+4. Revine la suita de teste, copiaza link-ul cu automatizarea testelor si il deschide cu Visual Studio.
+Dureaza 30 de secunde pana ce porneste programul cu Selenium WebDriver pentru automatizarea paginilor de web, NUnit pentru rularea testelor, si Selenium instalat pentru fiecare browser in parte (Chrome, Edge si Firefox).
+Selecteaza toate testele si le da start.
+5. De aici Selenium preia conducerea, ruleaza testele, verifica elementele necesare, introduce un anumit text in campul de cautare si dupa afisarea rezultatelor deschide o anumita pagina.
+6. Cand toate testele s-au rulat cu succes, trimite un email programatorului nostru fictiv.
+Se logheaza in google mail introducand utilizatorul, parola. Apasa pe butonul compunere, introduce adresa de mail, scrie mesajajul in engleza "felicitari, toate testele s-au rulat fara efecte secundare". Apasa pe trimitere si aici se termina programul.
+
+Rezultatul asteptat:
+Testele reusite apar nuantate cu verde, se poate vedea codul in C# + mai sunt inca 120+ linii de cod in AutoIT, in total in jur de 250 de randuri de cod.
+Browser-ele cu testele s-au inchis pe rand, in schimb s-a lasat deschis Trello, Testrail si Visual Studio, sa se vada ca testerul nostru robot a lucrat si nu a stat degeaba. :)
+Multumesc pentru vizionare!
