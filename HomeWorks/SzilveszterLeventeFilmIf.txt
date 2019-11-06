@@ -1,0 +1,17 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string guess = "Ygritte";
+
+		/* Here's a list of the MAIN characters from Game of Thrones according to Wikipedia: Eddard "Ned" Stark, Robert Baratheon, Jaime Lannister, Catelyn Stark, Cersei Lannister, Daenerys Targaryen, Jorah Mormont, Viserys Targaryen, 1, Jon Snow, Sansa Stark, Arya Stark, Robb Stark, Theon Greyjoy, Wright Bran Stark, Joffrey Baratheon, Sandor "The Hound" Clegane, Tyrion Lannister, Khal Drogo, Petyr "Littlefinger" Baelish, Davos Seaworth, Samwell Tarldy, Stannis Baratheon, Melisandre, Jeor Mormont, Bronn, Varys, Shae, Margaery Tyrell, Tywin Lannister, Talisa Maegyr, Ygritte, Gendry, Tormund Giantsbane, Brienne of Tarth, Ramsay Bolton, Gilly, Daario Naharis, Missandei, Ellaria Sand, Tommen Baratheon, Jaqen H'ghar, Roose Bolton, The High Sparrow, Grey Worm.*/	
+		Console.WriteLine("I'm thinking of a Game of Thrones character, guess who:");
+//		Console.ReadLine(); -- write once in if statement
+		if (Console.ReadLine() == guess)
+			Console.Write("Congrats, you've guessed it, I'm thinking of {0}!", guess);
+		else
+			Console.Write("That's not it!");
+	}
+}

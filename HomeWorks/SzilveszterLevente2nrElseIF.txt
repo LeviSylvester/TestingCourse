@@ -1,0 +1,18 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int a, b;
+		a = -1;
+		b = 1;
+		if (a == b)
+		{Console.WriteLine ("a = b");}
+		else if (a > b)
+		{Console.WriteLine ("a > b");}
+		else
+		{Console.WriteLine ("b > a");}
+		Console.Write ("Thanks for watching!");
+	}
+}

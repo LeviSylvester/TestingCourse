@@ -1,0 +1,43 @@
+URD Cerinta beneficiarului: buton de start sistem
+01 - realizarea unui buton de start al sistemului de operare
+02 - de unde se pot deschide programele
+03 - sa fie modificabila pozitia
+04 - sa se poata dea click pe el
+05 - la apasarea butonului sa-si schimbe repede starea in apasat
+06 - nici sa nu fie mic, nici sa nu fie mare, sa se poata manevra usor cu mouse-ul
+07 - sa se poata accesa si de la tastatura
+08 - sa fie primul buton pe bara de activitati
+09 - daca e cazul, sa se ascunda impreuna cu bara de activitati
+10 - sa contina logoul sistemului
+11 - logo-ul sa-si schimbe culoarea la activare cu mouse-ul
+
+SRS Specificatiile: buton de start sistem de operare
+01 - realizarea butonului de start al sistemului de operare Windows 10
+02 - prin apasarea butonului se deschide meniul start in mai putin de 1 sec. conform cerintelor minime de sistem
+03 - butonul de start se poate muta (impreuna cu bara de activitati), explicat la punctul 08
+04 - a) la apasarea pe buton cu click stanga se deschide meniul start, la fel la apasarea de pe touchpad, touchpen la butonul corespunzator
+     b) " cu click dreapta se deschide meniul de setari, la fel la apasarea de pe touchpad, sau touchpen la butonul corespunzator
+     c) la dispozitivele cu touch la atingerea butonului se deschide meniul start
+05 - la apasarea butonului starea se schimba in apasat in mai putin de 500 ms conform cerintelor minime de sistem, designul grafic detaliat la punctele 10 si 11
+06 - se precizeaza diferite marimi in functie de rezolutie (si pozitie *vezi 08):
+     a) in marime normala de ferestre:
+	800*600 - 2cm x 2cm (sau x pixeli * y pixeli)
+       1024*768 - 1.5cm x 1.5 cm "
+       1366*768 - 1.2cm x 1.2 cm "
+     b) in marime mica de ferestre se micsoreaza si x si y cu 0.4 cm ( " pixeli)
+     c) in marime mare de ferestre se mareste "
+07 - la apasarea de la tastatura a butonului windows se apasa butonul start (in mai putin de *vezi 05) si se deschide meniul start (in mai putin de *vezi 02) (designul explicat la punctul 11 d))
+08 - butonul se afla pe bara de activitati in urmatoarele pozitii si marimmi:
+     a) cand bara de activitati se afla jos: butonul de start este primul din stanga si are marime normala (*vezi 06)
+     b) " in stanga: " primul de sus si y se mareste cu 0.4 cm ( " pixeli)
+     c) " in sus: " primul din stanga si are marime normala
+     d) " in dreapta: " primul de sus si y se mareste cu 0.4 cm ( " pixeli)
+09 - daca este setat ca bara de activitati sa se ascunda, intotdeauna sa urmeze pozitia acestuia, fiind fixat de acesta
+10 - logo-ul butonului de start standard (care se modifica in modurile descrise la punctul 11) este de culoare alba (=exprimata si in rgb si in hex=) si are forma de dreptunghi privit in perspectiva spre stanga, taiat peste cu un plus subtire de 0,2 mm (=exprimata si in pixeli=), dand forma unei ferestre
+11 - impreuna cu butonul de start intotdeauna se afiseaza logoul sistemului de operare Windows 10 de marimea 3 cm x 3 cm (=exprimat si in pixeli=)
+     a) in stare neactiva: de culoare alba (=exprimat si in rgb si in hex=)
+     b) in starea mouse over: de culoare gri deschis (=exprimat si in rgb si in hex=) in asa fel incat sa se descoloreze cu (=exprimat si in rgb si in hex=) cu tot butonul
+     c) in stare apasata (activa): de culoare gri inchis (=exprimat si in rgb si in hex=) in asa fel incat sa se descoloreze si mai mult cu (=exprimat si in rgb si in hex=) culoare mai inchisa cu tot butonul fata de punctul b) si sa se mentine asa pana ce se ridica butonul mouse-ului sau touchpad/touchpen-ului
+     d) tot aici mentionam ca la apasarea butonului windows porneste doar functia mentionata la punctul 07, logoul ramane alb, se modifica doar culoarea butonului in felul amintit la punctul 11 b)
+     e) culoarea butonului ce a ramas in jurul logo-ului preia intotdeauna culoarea barei de activitati
+
