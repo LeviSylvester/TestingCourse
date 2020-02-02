@@ -1,4 +1,4 @@
-Author: Szilveszter Levente, email: l3vi.sylvester@gmail.com, tel. 0752243611 (temporary)
+Author: Szilveszter Levente, email: l3vi.sylvester@gmail.com, tel. 0786869564
 
 The Final Project consists of 2 automations () & {} joined together as follows:
 (AutoIT: Trello - Testrail[ - Mantis] - {SeleniumC#): - Tests - eMail} 5 minutes total.
